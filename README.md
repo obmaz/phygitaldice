@@ -1,17 +1,33 @@
-# phygital_dice
+# Dice Arena Companion
 
-A new Flutter project.
+Flutter 기반의 하이브리드 주사위 카드게임 컴패니언 앱 프로토타입입니다.
 
-## Getting Started
+## 지원 플랫폼
 
-This project is a starting point for a Flutter application.
+- Android
+- iOS
 
-A few resources to get you started if this is your first Flutter project:
+## 현재 구현 범위
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 캐릭터 선택
+- 전용 주사위 면 표시
+- 추가 스킬 2개 선택
+- 캐릭터 현재 체력 조작
+- 상태 마커 토글
+- 게임 준비 체크리스트
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+실제 주사위 굴림, 카드 사용, 피해 계산은 오프라인 플레이에서 처리합니다.
+
+## 실행
+
+```sh
+flutter pub get
+flutter run
+```
+
+## 검증
+
+```sh
+flutter analyze
+flutter test
+```

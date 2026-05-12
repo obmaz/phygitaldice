@@ -132,12 +132,14 @@ graph TD
 ## 4. 기술 스택 및 개발 환경 (Technical Stack and Development Environment)
 
 ### 4.1 사용 기술 (Technologies Used)
-*   **프론트엔드:** React, TypeScript
-*   **상태 관리:** (향후 결정, 예: React Context API, Zustand, Redux)
+*   **프론트엔드:** Flutter, Dart
+*   **지원 플랫폼:** Android, iOS
+*   **상태 관리:** 초기 프로토타입은 Flutter `StatefulWidget` 기반 로컬 상태로 구성. 기능 확장 시 Riverpod, Bloc 등으로 분리 검토.
 *   **데이터 형식:** JSON
 
 ### 4.2 개발 환경 (Development Environment)
-*   React 앱 생성 도구 (예: `create-react-app` 또는 Vite)
+*   Flutter SDK
+*   Android Studio 또는 Xcode 기반 모바일 빌드 환경
 *   IDE: (예: VS Code, IntelliJ IDEA)
 
 ## 5. 개발 계획 (Development Plan)
